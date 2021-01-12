@@ -7,8 +7,11 @@ function yideng() {
             console.log(2);
         }
     }
+    console.info(yideng)
     yideng();
 })();
+
+// 函数提升时，是以变量名的形式提升的，而非函数
 
 // undefined
 
