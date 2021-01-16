@@ -30,12 +30,12 @@ setOrder([1, 2, 2, 2, 3, 4, 5])
 // 【其他解法】
 // var heightChecker = function(heights) {
 //     let arr = [...heights]
-//     arr.sort((a,b)=>{a-b});
+//     arr.sort((a, b) => { a - b });
 //     let count = 0
-//     for(let i = 0;i<heights.length-1;i++){
-//         if(arr[i] != heights[i]){
+//     for (let i = 0; i < heights.length - 1; i++) {
+//         if (arr[i] != heights[i]) {
 //             count++;
 //         }
 //     }
 //     return count
-//  };
+// };
